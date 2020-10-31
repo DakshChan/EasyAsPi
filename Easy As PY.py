@@ -1,3 +1,6 @@
+#Daksh Malhotra
+#https://github.com/DakshChan
+
 import pygame
 from math import *
 pygame.init()
@@ -136,6 +139,8 @@ while True:
                     pygame.quit()
                 else:
                     f = open('export.py', 'w')
+                    f.write('#Daksh Malhotra\n')
+                    f.write('#https://github.com/DakshChan\n')
                     f.write('import pygame\n')
                     f.write('pygame.init()\n')
                     f.write('screen=pygame.display.set_mode((800,450))\n')
